@@ -7,9 +7,20 @@ import Navbar from "./components/navbar/Navbar";
 import { useState } from "react";
 import LoginPopup from "./components/loginPopup/LoginPopup";
 const App = () => {
+	const marqueeStyle = {
+		fontStyle: "italic",
+		color: "tomato",
+		fontWeight: "bold",
+		letterSpacing: "1px",
+	};
 	const [showLogin, setShowLogin] = useState(false);
 	return (
 		<div>
+			<marquee behavior="scroll" direction="left" style={marqueeStyle}>
+				This site is currently under development and some functions may not be
+				working properly.
+			</marquee>
+
 			{showLogin ? <LoginPopup setShowLogin={setShowLogin} /> : <></>}
 			<div className="app">
 				<Navbar setShowLogin={setShowLogin} />

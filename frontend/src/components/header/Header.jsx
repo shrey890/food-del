@@ -8,7 +8,9 @@ const Header = () => {
 					Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Necessitatibus maxime ipsum voluptate laudantium quo eligendi.
 				</p>
-				<button>View Menu</button>
+				<a href="#explore-menu">
+					<button>View Menu</button>
+				</a>
 			</div>
 		</div>
 	);
