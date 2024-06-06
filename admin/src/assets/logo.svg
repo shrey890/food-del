@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.36 20.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+        font-family: SegoeScript-Bold, 'Segoe Script';
+        font-size: 5px;
+        font-weight: 700;
+        letter-spacing: .2em;
+      }
+
+      .cls-2 {
+        fill: none;
+        font-family: SegoeScript, 'Segoe Script';
+        font-size: 12.5px;
+        stroke: #f15a24;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-2" transform="translate(.5 10.96)"><tspan x="0" y="0">Tomato.</tspan></text>
+      <text class="cls-1" transform="translate(13.56 17.91)"><tspan x="0" y="0">Admin</tspan></text>
+    </g>
+  </g>
+</svg>
